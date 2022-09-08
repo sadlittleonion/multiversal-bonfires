@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.narration {
+  color: white;
+  font-size: 12pt;
+  opacity: 0;
+  -webkit-animation: linear fadeIn 2s forwards;
+  animation: linear fadein 2s forwards;
+}
+.sting {
+  color: white;
+  opacity: 0;
+  -webkit-animation: linear fadeIn 2s forwards;
+  animation: linear fadein 2s forwards;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
