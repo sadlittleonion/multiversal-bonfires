@@ -18,6 +18,13 @@ body {
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
 }
+#firstbonfire {
+  opacity: 0;
+  -webkit-animation: linear fadeIn 2s forwards;
+  animation: linear fadein 2s forwards;
+  -webkit-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
