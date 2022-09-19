@@ -33,8 +33,9 @@ body {
   animation: linear fadein 2s forwards;
   -webkit-animation-delay: 10s;
   animation-delay: 10s;
+  letter-spacing: 3px;
 }
-.warp ul li{
+.warp ul li {
   list-style-type: none;
   display: inline;
   margin: 0;
@@ -51,11 +52,13 @@ body {
   animation-delay: 9.5s;
 }
 .narration {
- opacity: 0;
+  opacity: 0;
   -webkit-animation: linear fadeIn 2s forwards;
   animation: linear fadein 2s forwards;
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
+  max-width:450px;
+  margin-left: 445px;
 }
 .location {
   opacity: 0;
@@ -68,6 +71,7 @@ body {
   border-top: white solid 1px;
   margin-left: 500px;
   margin-right: 500px;
+  letter-spacing: 3px;
 }
 .sights {
   opacity: 0;
@@ -86,9 +90,9 @@ body {
     opacity: 1;
   }
 }
-a:link{
+a:link {
   color: #f5c367;
 }
-a:visited{
-  color: #510007;
+a:visited {
+  color: #f5c367;
 }
