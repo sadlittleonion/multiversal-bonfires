@@ -55,17 +55,17 @@ body {
   opacity: 0;
   -webkit-animation: linear fadeIn 2s forwards;
   animation: linear fadein 2s forwards;
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
-  max-width:450px;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  max-width: 450px;
   margin-left: 445px;
 }
 .location {
   opacity: 0;
   -webkit-animation: linear fadeIn 2s forwards;
   animation: linear fadein 2s forwards;
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
   color: #f5c367;
   border-bottom: white solid 1px;
   border-top: white solid 1px;
@@ -77,10 +77,10 @@ body {
   opacity: 0;
   -webkit-animation: linear fadeIn 2s forwards;
   animation: linear fadein 2s forwards;
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   max-width: 500px;
-  max-height: auto;
+  max-height: none;
 }
 @keyframes fadein {
   from {
